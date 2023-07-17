@@ -10,3 +10,7 @@ def get_gig_list(request):
         'gigs': gigs
     }
     return render(request, 'gig_list/giglist.html', context)
+
+
+def book_a_ticket(request):
+    return render(request, 'gig_list/booking.html')
