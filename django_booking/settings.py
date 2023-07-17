@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-n8slgc4^0znei5*5gc3srvy0-7ql_=+*)zj8i^ytts3z6r2nsl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['8000-gavpri-ticketreservatio-q57tm5s05js.ws-eu101.gitpod.io']
 
 
 # Application definition
