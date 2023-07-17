@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from band_tickets.views import get_gig_list
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', get_gig_list, name='hello')
 ]
